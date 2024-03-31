@@ -1,0 +1,92 @@
+html body {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  height: 100vh;
+}
+
+/* linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), */
+
+.main-div {
+  padding: 50px 150px 50px 150px;
+}
+
+.x-mark {
+  opacity: 0;
+}
+
+li:hover .x-mark {
+  opacity: 1;
+}
+
+button:focus {
+  outline: none !important;
+  border: none !important;
+  font-style: italic;
+  color: rgb(247, 11, 11);
+}
+
+button:hover {
+  scale: 1.2;
+}
+
+.upper-section {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.upper-section h1 {
+  color: white;
+}
+
+.light-image {
+  background-image: url(./components/todoComponents/images/light-lower.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  transition: 1.5s;
+
+
+}
+
+.bg-light {
+  background-image: url(./components/todoComponents/images/bgLight.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  transition: 1s;
+  min-height: 100vh;
+  background: linear-gradient()
+
+
+}
+
+.dark-image {
+  background-image: url(./components/todoComponents/images/dark-lower.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  transition: 1.5s;
+
+
+}
+
+.bg-dark {
+  background-image: url(./components/todoComponents/images/bgDark.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  transition: 1s;
+  min-height: 100vh;
+
+
+}
+
+.lower-section {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  min-height: 450px;
+}
